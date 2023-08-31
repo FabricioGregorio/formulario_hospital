@@ -1,0 +1,46 @@
+/* display flex para o form */
+.divflex {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+/* classe para as divs com o conteúdo principal, div do lado esquerdo e do lado direito */
+.divprincipal {
+    flex: 1;
+    padding: 0px 10px;
+    height: 93vh;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+/* centralizando o botao e mudando o tamanho */
+#divbotao {
+    text-align: center;
+    margin: 0;
+  }
+
+button {
+    display: inline-block;
+    width: 300px;
+    margin: 5px 0px;
+  }
+
+/* personalizando o footer */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    margin-top: 5px;
+    padding: 1%;
+    bottom: 0;
+    width: 100%;
+}
+
+/* personalizando o "link de download" gerado no clique do botao */
+.linkDeDownload {
+    display: block;
+    text-align: center;
+    margin-top: 10px; 
+    color: #007bff; 
+}
